@@ -12,10 +12,9 @@ Automação de testes WEB para realizar login no site: http://www.automationprac
 - Site_prism (implementa o padrão Page Object)
 
 **O projeto possui as seguintes funcionalidades:**
-- [x] Cenários outline:
-	- Cenário de testes para login válido;
-	- Cenário de testes para login inválido;
-	- Cenário de testes para login criando uma nova conta;
+- [x] Cenários de testes para login válido;
+- [x] Cenário outline de de testes para login inválido;
+- [x] Cenário de testes para criar uma nova conta e realizar login;
 - [x] Desenvolvido no padrão page object;
 - [x] Possui relatório dos testes em formato html com evidência dos testes (imagens)- Pasta reports;
 - [x] Configurado para rodar no Chrome;
