@@ -5,11 +5,17 @@ Funcionalidade: Login
     Quero fazer login no site http://automationpractice.com
     Para acessar a minha conta
 
-@smoke @login_valido
+@login_valido
 Cenário: Login válido
     Dado que eu seja um usuário cadastrado
     Quando eu efetuo login no site
     Então devo ser autenticado com sucesso
+
+@login_valido
+Cenário: Login com uma nova conta
+    Dado que eu seja um usuário sem cadastro
+    Quando que eu crio uma nova conta no site
+    Então devo ser autenticado com meu novo usuário
 
 @login_invalido
 Esquema do Cenário: Login inválido

@@ -13,4 +13,9 @@ class LoginPage < SitePrism::Page
         login_button.click
 	end
 
+	def open_new_account
+		input_email_create.set Faker::Internet.email
+		create_account_button.click
+	end
+
 end
