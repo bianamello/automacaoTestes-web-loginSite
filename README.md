@@ -93,3 +93,7 @@ Automação de testes WEB para realizar login no site: http://www.automationprac
 **3-Para rodar os testes no pipeline do Jenkins:**
 - Clicar no Job criado
 - Clicar em "Construir agora"
+
+**4-Para visualizar o relatório de testes no Jenkins:**
+- Clicar no Job criado
+- Clicar em "Cucumber reports" Obs.: Relatório fica disponível após rodar um teste "Construir agora"
